@@ -41,12 +41,12 @@ class Setup {
     // start method
     public static void start(String option) {
 
-        String fileName = option; // Change this to the name of your file
+        String fileSelector = option; // Change this to the name of your file
         ArrayList<String> linuxItems = new ArrayList<>();
 
         // reading file
         try (
-                BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+                BufferedReader br = new BufferedReader(new FileReader(fileSelector))) {
             String line;
             // reading line by line
             while ((line = br.readLine()) != null) {
