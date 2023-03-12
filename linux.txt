@@ -14,6 +14,8 @@ sudo nano /etc/default/grub
 paste it inside -> GRUB_TIMEOUT=0
 paste it in shell -> grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
 check for gnome tweaks & extensions settings (install if not installed)
+->install the following extensions appindicator, add to desktop, backslide, blur my shell, dash to dock, open weather
+set windows titelbar buttons to left
 set focus window on hover from settings
 setup faster dns -> cloudflare/google (install 1.1.1.1 for auto installation)
 setup application launcher
