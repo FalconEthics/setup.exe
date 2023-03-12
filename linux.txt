@@ -62,6 +62,10 @@ install steam
 install whatsapp
 install slack 
 install discord
+install jetbrains toolbox
+install phpstorm
+install Clion
+install intellij
 install webstorm
 install vscode
 install github desktop
