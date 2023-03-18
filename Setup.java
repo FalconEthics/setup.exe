@@ -12,23 +12,23 @@ class Setup {
 
         // select OS
         System.out.println(
-                "\n Enter your OS family: \n \t \t \t 1. Linux \n \t \t \t 2. Unix \n \t \t \t 3. Windows \n \t \t \t 4. MacOS \n \t \t \t 5. Others");
+                "\n Enter your OS family: \n \t \t \t Linux \n \t \t \t android \n \t \t \t Other");
         String OS = myObj.nextLine();
 
         // start setup with selected OS
         if (OS.equalsIgnoreCase("Linux")) {
 
             // if OS is Linux
-            System.out.println("Welcome to Linux Programming Environment Setup!");
+            System.out.println("Welcome to Linux coding Environment Setup!");
             // passing linux.txt to start method
             start("linux.txt");
 
-        } else if (OS.equalsIgnoreCase("unix") || OS.equalsIgnoreCase("MacOS")) {
+        } else if (OS.equalsIgnoreCase("android")) {
 
-            // if OS is Unix or MacOS
-            System.out.println("Welcome to Unix Programming Environment Setup!");
-            // passing unix.txt to start method
-            start("unix.txt");
+            // if OS is android
+            System.out.println("Welcome to android daily drive Setup!");
+            // passing android.txt to start method
+            start("android.txt");
 
         } else {
 
@@ -76,7 +76,13 @@ class Setup {
             }
         }
         // printing message when all steps are completed
-        System.out.println("\nCongrats your coding environment is ready!");
+        if (option == "linux.txt") {
+            System.out.println("\nCongrats now your coding environment is ready for intense workload!");
+        } else if (option == "android.txt") {
+            System.out.println("\nCongrats now your android device is ready for daily drive!");
+        } else {
+            System.out.println("\nerror code: 404");
+        }
     }
 }
 
