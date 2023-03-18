@@ -41,9 +41,10 @@ install vim
 link your google drive
 install ms fonts
 install rgb and peripherals softwares
-install winrar
+install 7zip
 install libreoffice
 install brave browser
+install Notion
 install gcc/g++
 install jdk devel
 install python
