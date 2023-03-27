@@ -1,0 +1,51 @@
+first check for system updates & store app updates
+Go through all the basic settings
+Go through all controlpanel settings
+calibrate display
+now simply go through all the tutorials of the all the videos in this channel: https://www.youtube.com/@AdamxYT/videos
+turn on upnp and set dns 1.1.1.1--> router settings
+set keyboard shortcuts -> calculator, screenshot, notepad, browser, search, settings, forces shutdown, lock, restart, sound, full screen, everything search, task manager
+set clipboard manager
+calibrate display
+set your wallpapers
+set global font to comforta from gnome tweaks
+turn mouse acceleration off in settings
+now let's start installing some apps!
+install everything
+install espanso
+link your google drive
+install rgb and peripherals softwares
+install 7zip
+install ms office
+install brave browser
+install Notion
+install excalidraw
+install protonvpn
+install calibre
+install blender
+install obs studio
+install acrobat
+insatll pdf converter
+install qbittorrent
+install media codec
+install affinity photo
+install steam
+install aim labs
+install whatsapp
+install slack 
+install discord
+install davinci resolve
+install jdownloader
+install zoom
+install anydesk
+install unity
+install winnap
+install bootable usb maker
+install prime music
+install unisoc
+now install games according to -> bgot.vercel.app
+set dock apps to -> files, software center, brave, bing, chrome, whatsapp, slack, discord, drive, word, vscode, vpn, github, ms word, trash and apps
+activate all applications -> turn on each and every installed application and set all the user settings/plugins
+set all the games settings for best performance
+restart and go though all the system settings again
+look for any updated tweaks

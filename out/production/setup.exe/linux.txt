@@ -1,0 +1,90 @@
+first check for system updates/upgrades sudo dnf update && sudo dnf upgrade
+Go through all the basic settings
+sudo nano /etc/dnf/dnf.conf
+paste it in shell -> fastestmirror=True max_parallel_downloads=10 defaultyes=True keepcache=True
+sudo dnf update
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf groupupdate core
+paste it in shell -> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+sudo dnf groupupdate sound-and-video
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo nano /etc/default/grub
+paste it inside -> GRUB_TIMEOUT=0
+paste it in shell -> grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+check for gnome tweaks & extensions settings (install if not installed)
+->install the following extensions appindicator, add to desktop, backslide, blur my shell, dash to dock, open weather
+set windows titelbar buttons to left
+set focus window on hover from settings
+setup faster dns -> cloudflare/google (install 1.1.1.1 for auto installation)
+setup application launcher
+turn off all unnecessary security policies from settings-> privacy
+turn off all kinds of open nat sharing options settings-> sharing
+change power settings to performance (balanced if laptop)
+set display native resolution and scaling
+set keyboard shortcuts -> calculator, screenshot, notepad, browser, search, settings, forces shutdown, lock, restart, work-space/window switch, sound, input, console, full screen, everything search, task manager
+set clipboard manager
+set a sharp cursor
+calibrate display
+set your wallpapers
+set global font to comforta from gnome tweaks
+turn mouse acceleration off in settings
+now let's start installing some apps!
+install i3wm
+install kitty
+install tmux
+install neofetch
+install everything
+install espanso
+install vim
+link your google drive
+install ms fonts
+install rgb and peripherals softwares
+install 7zip
+install libreoffice
+install brave browser
+install Notion
+install gcc/g++
+install jdk devel
+install python
+install nodejs, npm, yarn
+install excalidraw
+install protonvpn
+install easyeffects
+install gimp
+install calibre
+install blender
+install obs studio
+install ocular
+install qbittorrent
+install vlc
+install wine
+install lutris
+install steam
+install whatsapp
+install slack 
+install discord
+install jetbrains toolbox
+install phpstorm
+install Clion
+install intellij
+install webstorm
+install vscode
+install github desktop
+install davinci resolve
+install jdownloader
+install zoom
+install teamviewer
+install firefox dev
+install arduino
+install unity
+install amberol
+install vmware
+install bootable usb maker
+install prime music
+install gsconnect
+set dock apps to -> files, software center, brave, whatsapp, slack, discord, drive, webstorm, vscode, vpn, github, ms word, trash and apps
+activate all applications -> turn on each and every installed application and set all the user settings/plugins
+restart and go though all the system settings again
+look for any updated tweaks
