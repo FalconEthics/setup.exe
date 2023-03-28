@@ -15,14 +15,14 @@ install everything
 install espanso
 link your google drive
 install rgb and peripherals softwares
-install 7zip
+install winrar & poweriso
 install ms office
-install brave browser
+install brave browser --> https://brave.com/en-in/download/
 install Notion
 install excalidraw
 install protonvpn
 install calibre
-install blender
+install fusion 360 --> https://www.autodesk.com/products/fusion-360/appstream
 install obs studio
 install acrobat
 insatll pdf converter
@@ -34,15 +34,14 @@ install aim labs
 install whatsapp
 install slack 
 install discord
-install davinci resolve
+install davinci resolve --> https://getintopc.com/softwares/graphic-design/davinci-resolve-studios-2021-free-download-1662194/
 install jdownloader
-install zoom
 install anydesk
 install unity
 install winnap
 install bootable usb maker
 install prime music
-install unisoc
+install unison --> https://apps.microsoft.com/store/detail/intel%C2%AE-unison%E2%84%A2/9PP9GZM2GN26
 now install games according to -> bgot.vercel.app
 set dock apps to -> files, software center, brave, bing, chrome, whatsapp, slack, discord, drive, word, vscode, vpn, github, ms word, trash and apps
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
