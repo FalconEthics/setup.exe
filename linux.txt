@@ -31,7 +31,8 @@ set global font to comforta from gnome tweaks
 now let's start installing some apps!
 install kitty
 setup kitty with oh my zsh -> https://youtu.be/wNQpDWLs4To
-install tmux
+install tmux ->> https://www.youtube.com/watch?v=U-omALWIBos&t=98s
+if error sourcing --> tmux source-file ~/.tmux.conf    
 setup tmux with -> https://youtu.be/H70lULWJeig
 install neofetch
 install i3wm
