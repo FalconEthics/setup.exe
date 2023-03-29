@@ -1,13 +1,11 @@
 first check for system updates & store app updates
-Go through all the basic settings
-Go through all controlpanel settings
+install gpu drivers
+go through all the steps --> https://mega.nz/file/R14TjYwA#pGYLQge1RPPUYvYfjIGblzLDo2m3Ig_G1XetZiYqcpo
 calibrate display
 install 1.1.1.1
-set keyboard shortcuts -> calculator, screenshot, notepad, browser, search, settings, forces shutdown, lock, restart, sound, full screen, everything search, task manager
 set clipboard manager
 calibrate display
 set your wallpapers
-set global font to comforta from gnome tweaks
 turn mouse acceleration off in settings
 now let's start installing some apps!
 install everything
@@ -15,16 +13,16 @@ install espanso
 link your google drive
 install exitlag
 install rgb and peripherals softwares
-install winrar & poweriso
+install 7zip & poweriso
 install ms office
-install brave browser --> https://brave.com/en-in/download/
+install brave browser
 install Notion
 install excalidraw
 install protonvpn
 install calibre
-install fusion 360 --> https://www.autodesk.com/products/fusion-360/appstream
+install fusion 360
 install obs studio
-install acrobat
+install pdf architect
 insatll pdf converter
 install qbittorrent
 install media codec
@@ -34,16 +32,16 @@ install aim labs
 install whatsapp
 install slack 
 install discord
-install davinci resolve --> https://getintopc.com/softwares/graphic-design/davinci-resolve-studios-2021-free-download-1662194/
-install jdownloader
+install davinci resolve
+install idm
 install anydesk
 install unity
 install winnap
 install bootable usb maker
 install prime music
-install unison --> https://apps.microsoft.com/store/detail/intel%C2%AE-unison%E2%84%A2/9PP9GZM2GN26
+install unison
 now install games according to -> bgot.vercel.app
-set dock apps to -> files, software center, brave, bing, chrome, whatsapp, slack, discord, drive, word, vscode, vpn, github, ms word, trash and apps
+set dock apps to -> files, software center, brave, whatsapp, slack, discord, drive, word, vpn, ms word, calculator, screenshot, search, settings and apps
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
 set all the games settings for best performance
 restart and go though all the system settings again

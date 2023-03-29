@@ -29,13 +29,13 @@ set a sharp cursor
 set your wallpapers
 set global font to comforta from gnome tweaks
 now let's start installing some apps!
-install i3wm
-setup i3 with -> https://www.youtube.com/watch?v=77-tuFE_pGc & https://www.youtube.com/watch?v=oNM1-5xhRAc
 install kitty
 setup kitty with oh my zsh -> https://youtu.be/wNQpDWLs4To
 install tmux
 setup tmux with -> https://youtu.be/H70lULWJeig
 install neofetch
+install i3wm
+setup i3 with -> https://www.youtube.com/watch?v=77-tuFE_pGc & https://www.youtube.com/watch?v=oNM1-5xhRAc
 install rofi
 setup rofi --> https://www.youtube.com/watch?v=TutfIwxSE_s&t=252s & https://www.youtube.com/watch?v=v8w1i3wAKiw
 install everything
@@ -46,7 +46,6 @@ install neovim
 setup neovim with -> https://youtu.be/w7i4amO_zaE
 link your google drive
 install ms fonts
-install rgb and peripherals softwares
 install 7zip
 install libreoffice
 install brave browser
@@ -54,7 +53,7 @@ install Notion
 install gcc/g++
 install jdk devel
 install python
-install nodejs, npm, yarn
+install nodejs, npm
 install excalidraw
 install protonvpn
 install easyeffects
