@@ -24,8 +24,8 @@ turn off all kinds of open nat sharing options settings-> sharing
 change power settings to performance (balanced if laptop)
 set display native resolution and scaling
 set keyboard shortcuts -> calculator, screenshot, notepad, browser, search, settings, forces shutdown, lock, restart, work-space/window switch, sound, input, console, full screen, everything search, task manager
-set clipboard manager (greenclip)
-set a sharp cursor (lxdapperiance)
+set clipboard manager (greenclip in i3)
+set a sharp cursor (lxdapperiance in i3)
 set your wallpapers
 set global font to comforta from gnome tweaks
 now let's start installing some apps!
