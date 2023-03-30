@@ -22,7 +22,7 @@ install protonvpn
 install calibre
 install fusion 360
 install obs studio
-install pdf architect
+install acrobat
 insatll pdf converter
 install qbittorrent
 install media codec

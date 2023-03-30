@@ -93,7 +93,7 @@ then cd polybar-themes --> chmod +x setup.sh --> ./setup.sh
 copy you polybar files to ~/.config/polybar/
 bash ~/.config/polybar/launch.sh --grayblocks
 copy your rofi files to ~/.config/rofi
-now copy you config to ~/.config/i3/config
+now copy your config to ~/.config/i3/config
 sudo dnf install lxappearance
 now copy your cursor to /usr/share/icons
 enter lxappearance --> change cursor
@@ -122,8 +122,8 @@ reboot
 now login to i3
 uninstall vim
 install neovim
-setup neovim
-
+setup neovim --> copy you init.vim to ~/.config/nvim/
+open nvim --> :PlugInstall
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
 restart and go though all the system settings again
 look for any updated tweaks
