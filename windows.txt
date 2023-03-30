@@ -15,7 +15,7 @@ install exitlag
 install rgb and peripherals softwares
 install 7zip & poweriso
 install ms office
-install brave browser
+install edge
 install Notion
 install excalidraw
 install protonvpn

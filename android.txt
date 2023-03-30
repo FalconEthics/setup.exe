@@ -12,7 +12,7 @@ install gramarly
 link your google drive
 install ms office
 install rar
-install brave browser
+install edge
 install Notion
 install codesnackide
 install sketchbook
