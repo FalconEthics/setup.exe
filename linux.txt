@@ -54,7 +54,7 @@ install vmware
 install bootable usb maker
 install gsconnect
 install espanso
-configure base.yml -> espanso path
+configure base.yml -> espanso path --> match --> base.yml
 install neofetch
 now let's start make your coding environment cool!
 go through all the steps --> https://github.com/FalconEthics/falcon-zsh
