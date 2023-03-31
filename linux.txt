@@ -57,69 +57,8 @@ install espanso
 configure base.yml -> espanso path
 install neofetch
 now let's start make your coding environment cool!
-let's start by installing kitty, tmux and i3
-setup kitty --> kitty +kitten themes
-now let's change your boring shell to something amazing
-install zsh then --> sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-install hack nerd font --> https://www.nerdfonts.com/font-downloads
-press ctrl+shift+f2 inside kitty then paste --> 
-# font_family      Input Mono 
-font_family	Hack Nerd Font Regular
-italic_font	Hack Nerd Font Italic
-bold_font        Hack Nerd Font Bold
-bold_italic_font Hack Nerd Font Bold Italic
-sudo dnf install gem
-sudo dnf install ruby-devel
-gem install colorls
-now let's add some magic --> git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-then --> git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-lastly --> git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-copy your .zshrc file to nano .zshrc
-source .zshrc
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-copy your .tmux.conf to nano ~/.tmux.conf
-enter tmux then --> tmux source-file ~/.tmux.conf
-then press ctrl-f I then press ctrl-f r
-log out and now log in to i3
-select super as your mod key
-reboot and login to gnome-xorg
-sudo dnf install rofi
-now --> git clone --depth=1 https://github.com/adi1090x/rofi.git
-then cd rofi --> chmod +x setup.sh --> ./setup.sh
-sudo dnf install polybar
-enter polybar
-now --> git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
-then cd polybar-themes --> chmod +x setup.sh --> ./setup.sh
-copy you polybar files to ~/.config/polybar/
-bash ~/.config/polybar/launch.sh --grayblocks
-copy your rofi files to ~/.config/rofi
-now copy your config to ~/.config/i3/config
-sudo dnf install lxappearance
-now copy your cursor to /usr/share/icons
-enter lxappearance --> change cursor
-then set global font to comforta from gnome tweaks
-install nitrogen and set wallpaper
-now let's make your life easier with --> wget https://github.com/erebe/greenclip/releases/download/v4.2/greenclip
-chmod +x greenclip
-sudo mv greenclip /usr/local/bin
-echo $PATH | grep -q /usr/local/bin && echo "greenclip is in your path" || echo "greenclip is not in your path"
-greenclip daemon
-let's have notification panel now --> sudo apt install dunst
-mkdir -p ~/.config/dunst
-touch ~/.config/dunst/dunstrc
-now paste the following -->
-font = DejaVu Sans Mono:size=10
-command = dunstify
-monitor = 0
-geometry = "500x1-1+40"
-shrink = no
-transparency = yes
-background = "#282c34"
-foreground = "#e5c07b"
-format = "%s"
-now --> dunst &
-reboot
-now login to i3
+go through all the steps --> https://github.com/FalconEthics/falcon-zsh
+go through all the steps --> https://github.com/FalconEthics/i3wm-Pro
 uninstall vim
 install neovim
 let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
