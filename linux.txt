@@ -122,8 +122,10 @@ reboot
 now login to i3
 uninstall vim
 install neovim
-setup neovim --> copy you init.vim to ~/.config/nvim/
-open nvim --> :PlugInstall
+let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim --> after all plugins installed press Ctrl+q
+now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config/nvim/lua/user
+start nvim again
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
 restart and go though all the system settings again
 look for any updated tweaks
