@@ -27,7 +27,19 @@ install edge
 install Notion
 install gcc/g++
 install jdk devel
-install python
+curl -s https://get.sdkman.io | bash
+reboot
+sdk install kotlin
+wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
+sudo unzip -d /opt/gradle /tmp/gradle-*.zip
+ls /opt/gradle/gradle-5.0
+sudo nano /etc/profile.d/gradle.sh
+paste the follwoing -->
+export GRADLE_HOME=/opt/gradle/gradle-5.0
+export PATH=${GRADLE_HOME}/bin:${PATH}
+sudo chmod +x /etc/profile.d/gradle.sh
+source /etc/profile.d/gradle.sh
+source /etc/profile.d/gradle.sh
 install nodejs, npm
 install excalidraw
 install protonvpn
