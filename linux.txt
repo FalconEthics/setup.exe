@@ -18,6 +18,16 @@ install the following extensions appindicator
 setup faster dns -> ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001
 change power settings to performance (balanced if laptop)
 set display native resolution and scaling
+install neofetch
+now let's start make your coding environment cool!
+go through all the steps --> https://github.com/FalconEthics/falcon-zsh
+go through all the steps --> https://github.com/FalconEthics/i3wm-Pro
+uninstall vim
+install neovim
+let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim --> after all plugins installed press Ctrl+q
+now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config/nvim/lua/user
+start nvim again
 now let's start installing some apps!
 link your google drive
 install ms fonts
@@ -67,16 +77,6 @@ install bootable usb maker
 install gsconnect
 install espanso
 configure base.yml -> espanso path --> match --> base.yml
-install neofetch
-now let's start make your coding environment cool!
-go through all the steps --> https://github.com/FalconEthics/falcon-zsh
-go through all the steps --> https://github.com/FalconEthics/i3wm-Pro
-uninstall vim
-install neovim
-let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim --> after all plugins installed press Ctrl+q
-now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config/nvim/lua/user
-start nvim again
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
 restart and go though all the system settings again
 look for any updated tweaks
