@@ -30,8 +30,7 @@ now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config
 start nvim again
 now let's start installing some apps!
 link your google drive
-install spotify --> sudo dnf install lpf-Spotify-client (not snap)
-install https://github.com/SpotX-CLI/SpotX-Linux
+install spotube flatpak
 install ms fonts
 install 7zip
 install libreoffice
