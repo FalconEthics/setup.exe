@@ -31,7 +31,7 @@ install discord
 install github
 install zoom
 install teamviewer
-install prime music
+install spotify mod
 install kde connect
 install trello
 install home workout. splits training and mma home

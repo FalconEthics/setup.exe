@@ -38,7 +38,8 @@ install anydesk
 install unity
 install winnap
 install bootable usb maker
-install prime music
+install spotify
+install https://github.com/SpotX-CLI/SpotX-Win
 install unison
 now install games according to -> bgot.vercel.app
 set dock apps to -> files, software center, brave, whatsapp, slack, discord, drive, word, vpn, ms word, calculator, screenshot, search, settings and apps

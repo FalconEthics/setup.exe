@@ -30,6 +30,8 @@ now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config
 start nvim again
 now let's start installing some apps!
 link your google drive
+install spotify (not snap)
+install https://github.com/SpotX-CLI/SpotX-Linux
 install ms fonts
 install 7zip
 install libreoffice
@@ -37,9 +39,6 @@ install edge
 install Notion
 install gcc/g++
 install jdk devel
-curl -s https://get.sdkman.io | bash
-reboot
-sdk install kotlin
 wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
 sudo unzip -d /opt/gradle /tmp/gradle-*.zip
 ls /opt/gradle/gradle-5.0
