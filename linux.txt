@@ -47,6 +47,7 @@ install gimp
 install ocular
 install vlc
 install whatsapp
+install obs-studio
 install slack 
 install discord
 install jetbrains toolbox
