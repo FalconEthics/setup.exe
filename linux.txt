@@ -48,7 +48,7 @@ install gimp
 install ocular
 install vlc
 install whatsapp
-install obs-studio
+install obs-studio with all the plugins from gnome-software
 install slack 
 install discord
 install jetbrains toolbox
