@@ -39,6 +39,7 @@ install zomato
 install dafit
 install digilocker
 install life360
+install YT Studio
 insatll isic
 install camscanner
 install policybazar
