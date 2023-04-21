@@ -33,6 +33,7 @@ link your google drive
 install spotube flatpak
 install ms fonts
 install 7zip
+install thunderbird
 install libreoffice
 install edge
 install Notion
