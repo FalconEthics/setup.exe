@@ -11,58 +11,48 @@ sudo dnf groupupdate sound-and-video
 sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 sudo nano /etc/default/grub
-paste it inside -> GRUB_TIMEOUT=0
+paste it inside -> GRUB_TIMEOUT=4
 paste it in shell -> grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
 check for gnome tweaks & extensions settings (install if not installed)
-->install the following extensions appindicator, add to desktop, backslide, blur my shell, dash to dock, open weather
-set windows titelbar buttons to left
-set focus window on hover from settings
-setup faster dns -> cloudflare/google (install 1.1.1.1 for auto installation)
-setup application launcher
-turn off all unnecessary security policies from settings-> privacy
-turn off all kinds of open nat sharing options settings-> sharing
+install the following extensions appindicator
+setup faster dns -> ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001
 change power settings to performance (balanced if laptop)
 set display native resolution and scaling
-set keyboard shortcuts -> calculator, screenshot, notepad, browser, search, settings, forces shutdown, lock, restart, work-space/window switch, sound, input, console, full screen, everything search, task manager
-set clipboard manager
-set a sharp cursor
-calibrate display
-set your wallpapers
-set global font to comforta from gnome tweaks
-turn mouse acceleration off in settings
-now let's start installing some apps!
-install i3wm
-install kitty
-install tmux
 install neofetch
-install everything
-install espanso
-install vim
+now let's start make your coding environment cool!
+go through all the steps --> https://github.com/FalconEthics/falcon-zsh
+go through all the steps --> https://github.com/FalconEthics/i3wm-Pro
+uninstall vim
+install neovim
+let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim --> after all plugins installed press Ctrl+q
+now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config/nvim/lua/user
+start nvim again
+turn mouse acceleration off in settings
 link your google drive
-install ms fonts
+now let's start installing some apps!
 install rgb and peripherals softwares
+install spotube flatpak
+install ms fonts
 install 7zip
+install thunderbird
 install libreoffice
-install brave browser
-install Notion
+install firefox
+install git
 install gcc/g++
 install jdk devel
-install python
-install nodejs, npm, yarn
+install nodejs, npm
 install excalidraw
 install protonvpn
 install easyeffects
+install postman
 install gimp
-install calibre
-install blender
-install obs studio
 install ocular
-install qbittorrent
 install vlc
-install wine
-install lutris
-install steam
 install whatsapp
+install fusion 360
+install obs-studio with all the plugins from gnome-software
+install davinci resolve studio 
 install slack 
 install discord
 install jetbrains toolbox
@@ -72,19 +62,19 @@ install intellij
 install webstorm
 install vscode
 install github desktop
-install davinci resolve
-install jdownloader
 install zoom
 install teamviewer
-install firefox dev
-install arduino
+install download manager
 install unity
+install qbittorrent
+install arduino
 install amberol
 install vmware
 install bootable usb maker
-install prime music
 install gsconnect
-set dock apps to -> files, software center, brave, whatsapp, slack, discord, drive, webstorm, vscode, vpn, github, ms word, trash and apps
+install espanso
+install a few games if you want
+configure base.yml -> espanso path --> match --> base.yml
 activate all applications -> turn on each and every installed application and set all the user settings/plugins
 restart and go though all the system settings again
 look for any updated tweaks

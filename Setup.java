@@ -33,12 +33,9 @@ class Setup {
         } else if (OS.equalsIgnoreCase("Gaming")) {
 
             // if OS is android
-            System.out.println("Welcome to windows gaming Setup!");
-            // passing android.txt to start method
-            start("windows.txt");
+            System.out.println("Nothing to setup here! just plug in you playstation and start gaming!");
 
         } else {
-
             // if OS is not supported
             System.out.println("OS not supported!");
         }
@@ -87,8 +84,6 @@ class Setup {
             System.out.println("\nCongrats now your coding environment is ready for intense workload!");
         } else if (option == "android.txt") {
             System.out.println("\nCongrats now your android device is ready for daily drive!");
-        } else if (option == "windows.txt") {
-            System.out.println("\nCongrats now your machine is ready for gaming and content creation!");
         } else {
             System.out.println("\nerror code: 404");
         }
