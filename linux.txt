@@ -30,6 +30,7 @@ now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config
 start nvim again
 turn mouse acceleration off in settings
 link your google drive
+install printer
 now let's start installing some apps!
 install rgb and peripherals softwares
 install spotube flatpak
@@ -41,6 +42,7 @@ install firefox
 install git
 install gcc/g++
 install jdk devel
+install php
 install nodejs, npm
 install excalidraw
 install protonvpn
@@ -56,7 +58,6 @@ install davinci resolve studio
 install slack 
 install discord
 install jetbrains toolbox
-install phpstorm
 install Clion
 install intellij
 install webstorm
