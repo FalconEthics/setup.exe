@@ -43,7 +43,6 @@ install git
 install gcc/g++
 install jdk devel
 install docker ~ https://docs.docker.com/desktop/install/fedora/
-install php
 install nodejs, npm
 install excalidraw
 install protonvpn
