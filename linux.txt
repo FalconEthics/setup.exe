@@ -22,12 +22,6 @@ install neofetch
 now let's start make your coding environment cool!
 go through all the steps --> https://github.com/FalconEthics/falcon-zsh
 go through all the steps --> https://github.com/FalconEthics/i3wm-Pro
-uninstall vim
-install neovim
-let's setup nvim now --> git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim --> after all plugins installed press Ctrl+q
-now --> git clone https://github.com/FalconEthics/astronvim_config.git ~/.config/nvim/lua/user
-start nvim again
 turn mouse acceleration off in settings
 link your google drive
 install printer
