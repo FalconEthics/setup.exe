@@ -52,8 +52,6 @@ install davinci resolve studio
 install slack 
 install discord
 install jetbrains toolbox
-install Clion
-install intellij
 install webstorm
 install vscode
 install github desktop
