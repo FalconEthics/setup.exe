@@ -30,17 +30,14 @@ install rgb and peripherals softwares
 install spotube flatpak
 install ms fonts
 install 7zip
-install thunderbird
 install libreoffice
 install firefox
 install git
 install gcc/g++
 install jdk devel
 install docker ~ https://docs.docker.com/desktop/install/fedora/
-install nodejs, npm
-install excalidraw
+install nodejs, npm, pnpm
 install protonvpn
-install easyeffects
 install postman
 install gimp
 install ocular
@@ -53,18 +50,15 @@ install slack
 install discord
 install jetbrains toolbox
 install webstorm
-install vscode
+install nvim and uninstall vi/vim
 install github desktop
-install zoom
 install teamviewer
 install download manager
 install unity
 install qbittorrent
-install arduino
 install amberol
 install vmware
 install bootable usb maker
-install gsconnect
 install espanso
 install a few games if you want
 configure base.yml -> espanso path --> match --> base.yml
