@@ -55,6 +55,7 @@ install airtel and jio app
 install google auth
 insatll whatisremoved
 insatll galgaxywear
+install google keep and calender
 insatll teamviewer 
 insatll snaptube
 insatll yt studio
