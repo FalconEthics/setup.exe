@@ -1,109 +1,8 @@
 /*
 TODO:
-- add proper comments
-- add timeouts whereever necessary
-- take a final yes or no before starting the script
-- finish the devenvsetup commands list
 - think poperly about what's left and do a proper code review that this script will work in pop_os
-- make a android version of this script:
-first check for system updates/upgrades -> settings
-Go through all the basic settings
-playstore apps updates
-developer option on -> settings > about > click on build version till it shows developer option enabled
-find and reduce all animations to 0.5x
-set clipboard manager
-set your wallpapers
-set global font to comforta
-now let's start installing some apps!
-install writing star
-install gramarly
-link your google drive
-install ms office
-install rar
-install firefox
-install Notion
-install codesnackide
-install sketchbook
-install protonvpn
-install snapsheed
-install goodreads
-install acrobat
-install adm
-insatll bittorrent
-install vlc
-install coc
-install steam
-install whatsapp
-install slack
-install discord
-install github
-install zoom
-install teamviewer
-install spotify mod
-install kde connect
-install trello
-install home workout. splits training and mma home
-install zomato
-install dafit
-install digilocker
-install life360
-install YT Studio
-insatll isic
-install camscanner
-install policybazar
-install whereismytrain
-install ntes
-install irctc rail connect
-install makemytrip
-install dr wolf
-install shadow fight 2
-install among us
-install inshare
-install airtel and jio app
-install google auth
-insatll whatisremoved
-insatll galgaxywear
-install google keep and calender
-insatll teamviewer
-insatll snaptube
-insatll yt studio
-insatll truecaller
-insatll indeed
-insatll linkedIn
-insatll hirect
-insatll coursera, udemy, wikipedia, quora, reddit, translate
-insatll facebook, instagram, twitter
-insatll gpay, hdfc bank, khatabook, paytm, paypal, phone pe
-insatll flipkart, 91mobiles, lenskart, olx, indanoil, amazon
-install netflix, prime video, bookmyshow, twitch, hotstar, sonyliv, zee5, jiotv, mxplayer
-set dock apps to -> phone, contacts, security, messages and settings
-turn off notifications for unwanted apps
-turn off app drawer
-add google serach widget to the top of all the home pages
-set clock with weather widget at home screen
-set important quick dial on 2nd page
-set dual clock ist & gmt -> lockscreen
-set emergency alert button/dial
-now let's start making home screen look organised with folders and important apps
-lifestyle -> calender, trello, home workout, splits training, mma at home, zomato, dafit, goodreads, notion.
-add camera to home screen
-important -> drive, gmail, digilocker, life360, isic, camscanner, plicybazar, notes, authenticator
-travel -> maps, uber, whereismytrain, ntes, irctc rail connect, makemytrip
-gamelauncher -> coc, dr wolf, shadow fight 2, among us
-add brave to home screen
-entertainment -> netflix, prime video, youtube, bookmyshow, twitch, hotstar, sonyliv, zee5, jiotv, mxplayer
-add gallary to home screen
-tools -> writing star, files, recorder, screen recorder, scanner, remote, inshare, adm, meet, airtel, bittorrent, kde connect, myjio, whatisremoved, galgaxywear, teamviewer, snaptube, yt studio, zoom, snapdheed, proton vpn, steam, truecaller, vlc, rar, gramarly, sketchbook.
-job hunt -> indeed, linkedIn, hirect
-shopping -> flipkart, 91mobiles, lenskart, olx, indanoil, amazon
-social media -> whatsapp, facebook, instagram, twitter, slack, discord
-education -> calculator, coursera, udemy, wikipedia, quora, reddit, codesnackide, github, translate
-finance -> gpay, hdfc bank, khatabook, paytm, paypal, phone pe
-add playstore to home screen
-now make a folder named others and add all the left ones in it then place it in the second page.
-activate all applications -> turn on each and every installed application and set all the user settings/plugins
-restart and go though all the system settings again
-look for any updated tweaks
+- make a android version of this script
+- add proper comments
 */
 
 #include <stdio.h>
@@ -148,11 +47,9 @@ const char *AppInstallCommands[20] = {
     "echo 'deb http://deb.anydesk.com/ all main' > /etc/apt/sources.list.d/anydesk-stable.list",
     "apt update",
     "sudo apt install anydesk",
-    // for installing protonvpn
-    "sudo apt-get install protonvpn",
 };
 
-const char *SystemSetupCommands[8] = {
+const char *SystemSetupCommands[13] = {
     "echo Setting up system...",
     "sudo add-apt-repository multiverse",
     "sudo apt update",
@@ -181,15 +78,14 @@ const char *DevEnvSetupCommands[] = {
     // Setup RN dev env
 };
 
-const char *SelfHelpCommands[] = {
-    "echo Now do some self help...",
-    "echo move your base.yml file from backup to ~/.config/espanso/match",
-    "echo install the following extensions from extension manager: appindicator, clipboard, thermals and caffine",
-    "echo install printer from settings",
-    "install rgb and peripherals softwares",
+const char *SelfHelpCommands[11] = {
+    "move your base.yml file from backup to ~/.config/espanso/match",
+    "install the following extensions from extension manager: appindicator, clipboard, thermals and caffine",
+    "install printer from settings",
+    "now install rgb and peripherals softwares",
     "link your google drive from nautilis",
     "setup faster dns -> ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001",
-    "setup vpn",
+    "setup vpn - follow the steps: https://protonvpn.com/support/linux-ubuntu-vpn-setup/",
     "go through the all settings and set them up",
     "setup gnome-twaks",
     "now enable tiling from pop shell! tune the keybinds to make it exactly like a window manager e.g i3wm/sway - check for your last setup",
@@ -201,6 +97,8 @@ void loopCommandsExecution(const char *Commands[], int numCommands, char phaseNa
 
 int main()
 {
+    char concent;
+    char stepDone;
 
     printf("\n");
     printf("*************************\n");
@@ -212,6 +110,10 @@ int main()
     printf("*************************\n");
     printf("\n");
 
+    printf("Do you want to continue? (y/n): ");
+    scanf("%c", &concent);
+
+    concent != 'y' ? exit(0) : printf("Starting the script...\n");
     // initial update check
     int numCommands = sizeof(InitialUpdateCheckCommands) / sizeof(InitialUpdateCheckCommands[0]);
     loopCommandsExecution(InitialUpdateCheckCommands, numCommands, "Initial Update Check");
@@ -223,6 +125,48 @@ int main()
     // system setup
     int numSystemSetupCommands = sizeof(SystemSetupCommands) / sizeof(SystemSetupCommands[0]);
     loopCommandsExecution(SystemSetupCommands, numSystemSetupCommands, "System Setup");
+
+    // dev env setup
+    int numDevEnvSetupCommands = sizeof(DevEnvSetupCommands) / sizeof(DevEnvSetupCommands[0]);
+    loopCommandsExecution(DevEnvSetupCommands, numDevEnvSetupCommands, "Dev Env Setup");
+
+    // Self-help
+    printf("\n");
+    printf("*************************\n");
+    printf("Now do some self-help...\n");
+    printf("*************************\n");
+    printf("\n");
+
+    for (int i = 0; i < sizeof(SelfHelpCommands) / sizeof(SelfHelpCommands[0]); i++)
+    {
+        printf("\n");
+        printf("*************************\n");
+        printf("%s\n", SelfHelpCommands[i]);
+        printf("*************************\n");
+        printf("\n");
+
+        printf("Done ? (y/n): ");
+        scanf(" %c", &stepDone); // Notice the space before %c to consume the newline
+
+        while (stepDone != 'y' && stepDone != 'n')
+        {
+            printf("Invalid input. Please enter 'y' or 'n': ");
+            scanf(" %c", &stepDone); // Keep asking until valid input is provided
+        }
+
+        if (stepDone == 'n')
+        {
+            printf("Skipping to the next step...\n");
+        }
+
+        printf("Let's move to the next step!...\n");
+    }
+
+    printf("\n");
+    printf("*************************\n");
+    printf("Your are good to go now!\n");
+    printf("*************************\n");
+    printf("\n");
 
     return 0;
 }
