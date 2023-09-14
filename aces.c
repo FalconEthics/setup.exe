@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 // initial update check commands
-const char *InitialUpdateCheckCommands[10] = {
+const char *InitialUpdateCheckCommands[20] = {
     "echo Checking for system updates...",
     // checking for updates
     "sudo apt update && apt-get update",
@@ -19,7 +19,7 @@ const char *InitialUpdateCheckCommands[10] = {
 };
 
 // app installation commands
-const char *AppInstallCommands[20] = {
+const char *AppInstallCommands[30] = {
     "echo Installing apps...",
     // installing apt apps
     "sudo apt-get install firefox -y",
@@ -46,7 +46,7 @@ const char *AppInstallCommands[20] = {
 };
 
 // system setup commands
-const char *SystemSetupCommands[13] = {
+const char *SystemSetupCommands[20] = {
     "echo Setting up system...",
     "sudo add-apt-repository multiverse",
     "sudo apt update",
@@ -64,14 +64,14 @@ const char *SystemSetupCommands[13] = {
 };
 
 // dev env setup commands
-const char *DevEnvSetupCommands[27] = {
+const char *DevEnvSetupCommands[30] = {
     "echo Setting up dev environment...",
     "sudo apt-get install gcc -y"
     // installing zsh with all the plugins
     "sudo apt-get install zsh -y",
     "sudo chsh -s zsh",
     "zsh",
-    'sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"',
+    "sh -c '$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)'",
     "git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf",
     "~/.fzf/install",
     "sudo apt-get install ruby ruby-dev -y"
@@ -98,7 +98,7 @@ const char *DevEnvSetupCommands[27] = {
 };
 
 // self help commands
-const char *SelfHelpCommands[11] = {
+const char *SelfHelpCommands[20] = {
     "download hack-nerd font and setup it in terminal: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip",
     "move your .zshrc file from backup to home directory",
     "now - source ~/.zshrc",
@@ -132,9 +132,7 @@ int main()
     printf("*************************\n");
     printf("DISCLAIMER!: This script is intended for use on Pop!_OS 22.04 LTS. Please do not use it on any other version of Ubuntu.\n");
     printf("*************************\n");
-    printf("\n");
-    printf("*************************\n");
-    printf("Before you continue, make sure pop-shop is updated and you have uninstalled all preinstalled apps that you use!\n");
+    printf("Before you continue, make sure pop-shop is updated and you have uninstalled all preinstalled apps that you don't use!\n");
     printf("*************************\n");
     printf("\n");
 
