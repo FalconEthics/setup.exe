@@ -92,7 +92,6 @@ const char *DevEnvSetupCommands[35] = {
     // installing git and other stuff
     "sudo apt-get install git -y",
     "sudo apt-get install libboost-all-dev -y",
-    "sudo apt install qtcreator -y",
     "flatpak install flathub io.github.shiftey.Desktop",
     "flatpak install flathub com.getpostman.Postman",
     "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | zsh",
