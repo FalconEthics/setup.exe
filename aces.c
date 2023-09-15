@@ -27,6 +27,7 @@ const char *AppInstallCommands[30] = {
     "sudo apt-get install vlc -y",
     "sudo apt-get install gimp -y",
     "sudo apt-get install kdenlive -y",
+    "sudo apt-get install gthumb -y",
     // for installing vmbox
     "sudo apt-get install virtualbox -y",
     "sudo apt-get install virtualbox—ext–pack -y",
@@ -98,23 +99,24 @@ const char *DevEnvSetupCommands[30] = {
 };
 
 // self help commands
-const char *SelfHelpCommands[20] = {
+const char *SelfHelpCommands[30] = {
     "download hack-nerd font and setup it in terminal: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip",
     "move your .zshrc file from backup to home directory",
     "now - source ~/.zshrc",
     "move your base.yml file from backup to ~/.config/espanso/match",
-    "install the following extensions from extension manager: appindicator, clipboard, thermals, blur my shell and caffine",
+    "install the following extensions from extension manager: clipboard indicator, vitals, blur my shell and caffine - (place vitals to the left and enable application blur in blur my shell with all the apps that you want to not blur in blacklist, add Shift+Super+V as toggle shortcut for clipboard)",
     "install printer from settings",
-    "now install rgb and peripherals softwares",
+    "now install rgb and peripherals softwares if you have any",
     "link your google drive from nautilis",
-    "setup faster dns -> ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001",
+    "setup faster dns -> ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001 - (from gnome setting's network section)",
     "setup vpn - follow the steps: https://protonvpn.com/support/linux-ubuntu-vpn-setup/",
     "install docker from: https://docs.docker.com/desktop/install/ubuntu/",
     "setup your git config for multiple accounts: https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/",
-    "go through the all settings and set them up",
-    "setup gnome-twaks",
+    "go through the all settings (each and every) and set them up according to your prefference",
+    "now copy Sunity-Cursors to /usr/share/icons",
+    "go to gnome-tweaks and change the folloing settings: cursor to Sunity-cursors, backgroud to your desired wallpaper, Mouse Acceleration Profile - Flat, startup application to none, top bar weekday, date enabled, window titlebar - double-click to toggle maximize and others to none, minimize enablex and maximize none",
     "now enable tiling from pop shell! tune the keybinds to make it exactly like a window manager e.g i3wm/sway - check keybinds from your last setup",
-    "now install a few games if you want!",
+    "Now go through all the apps and set them up according to your prefference",
 };
 
 // function declarations
