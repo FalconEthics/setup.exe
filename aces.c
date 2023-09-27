@@ -101,6 +101,9 @@ const char *DevEnvSetupCommands[35] = {
 
 // self help commands
 const char *SelfHelpCommands[30] = {
+    "download Jetbrains toolbox: https://www.jetbrains.com/toolbox-app/",
+    "run theis in cmd: sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt",
+    "sign-in and install all the ide you need from toolbox",
     "download hack-nerd font and setup it in terminal: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip",
     "move your .zshrc file from backup to home directory",
     "now - source ~/.zshrc",
