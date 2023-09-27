@@ -80,15 +80,6 @@ const char *DevEnvSetupCommands[35] = {
     "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k",
     "git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting",
     "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions",
-    // installing vscode
-    "sudo apt-get install wget gpg",
-    "wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg",
-    "sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg",
-    "sudo sh -c 'echo 'deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main' > /etc/apt/sources.list.d/vscode.list'",
-    "rm -f packages.microsoft.gpg",
-    "sudo apt install apt-transport-https",
-    "sudo apt update",
-    "sudo apt install code",
     // installing git and other stuff
     "sudo apt-get install git -y",
     "sudo apt-get install libboost-all-dev -y",
@@ -258,4 +249,4 @@ void loopCommandsExecution(const char *Commands[], int numCommands, char phaseNa
     printf("\n");
 }
 
-// copyrigt @ 2021 - 2022 SOUMIK DAS
+// copyright @ 2021 - 2022 SOUMIK DAS

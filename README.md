@@ -114,7 +114,7 @@ Here's a simplified list of the apps, tools, and configurations that **Setup.exe
 - Install Ruby and colorls for improved file listing.
 - Install Powerlevel10k, a Zsh theme.
 - Install Zsh syntax highlighting and autosuggestions plugins.
-- Install Visual Studio Code (VSCode) from Microsoft.
+- Install JetBrains Toolbox (WebStorm, GoLand & CLion).
 - Install Git for version control.
 - Install Postman, a popular API development tool.
 - Install NVM (Node Version Manager) and Node.js (LTS).
