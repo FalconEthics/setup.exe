@@ -1,0 +1,40 @@
+" Common remaps
+" makes scroll wheel faster
+set scrolloff=5
+
+" makes search case insensitive
+set incsearch
+" makes search highlight all matches
+map Q gq
+" set leader to space
+let mapleader = " "
+" set clipboard to system clipboard
+set clipboard+=unnamedplus
+" set jj to escape
+inoremap jj <Esc>
+" sets number
+set number
+" sets relative number
+set relativenumber
+" sets tab to 4 spaces
+set tabstop=4
+" sets shiftwidth to 4 spaces
+set shiftwidth=4
+" sets expandtab to true
+set expandtab
+
+" import plugins
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'dbakker/vim-paragraph-motion'
+
+" my keybindings
+:map <leader>n :NERDTreeToggle<CR>
+:map <leader>f <Action>(Find)
+:map <leader>r <Action>(Replace)
+:map <leader>l <Action>(ReformatCode)
+map <leader>w :w<CR>
+map <leader>q :wq<CR>
