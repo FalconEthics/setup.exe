@@ -1,0 +1,59 @@
+- install go - https://go.dev/doc/install
+
+- setup auto mount of disks from gnome disks utility
+
+- setup react native if needed: (https://reactnative.dev/docs/environment-setup)
+
+- download Jetbrains toolbox: https://www.jetbrains.com/toolbox-app/
+
+- run theis in cmd: sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
+
+- sign-in and install all the ide you need from toolbox
+
+- download hack-nerd font and setup it in terminal: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+
+- go to gnome terminal and set the font to hack nerd font and set the font size to 10 (theme: dark)
+
+- move your .zshrc file from backup to home directory
+
+- now - source ~/.zshrc
+
+- move your base.yml file from backup to ~/.config/espanso/match
+
+- install the following extensions from extension manager:
+clipboard indicator,
+vitals,
+Open weather
+caffine
+ > Shift+Super+V as toggle shortcut for clipboard indicator and enable user themes
+
+- install printer from settings
+
+- now install rgb and peripherals softwares if you have any
+
+- setup faster dns > ip4: 1.1.1.1, 1.0.0.1 ip6: 2606:4700:4700::1111, 2606:4700:4700::1001 - (from gnome setting's network section)
+
+- setup vpn > follow the steps: https://protonvpn.com/support/linux-ubuntu-vpn-setup/
+
+- install docker from: https://docs.docker.com/desktop/install/ubuntu/
+
+- setup your git config for multiple accounts: https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
+
+- go through the all settings (each and every) and set them up according to your prefference
+
+- now copy Sunity-Cursors to /usr/share/icons
+
+- go to gnome-tweaks and change the following settings:
+cursor to Sunity-cursors and icons to win10k-dark,
+backgroud to your desired wallpaper,
+Mouse Acceleration Profile - Flat,
+startup application to none, top bar weekday, date enabled,
+window titlebar - double-click to toggle maximize and others to none,
+minimize enablex and maximize none
+
+- now enable tiling from pop shell! Tune the keybindings to make it exactly like a window manager e.g i3wm/sway - check keybinds from your last setup
+
+- Now go through all the apps and set them up according to your prefference.
+
+- Now install neovim, tmux, tmuxifer......etc if you want to!
+
