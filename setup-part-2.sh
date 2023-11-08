@@ -25,6 +25,14 @@ sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
 sudo rm microsoft.gpg
 sudo apt update && sudo apt install microsoft-edge-stable
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt-get update
+sudo apt-get install neovim -y
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip -y
+sudo apt-get install python3-venv -y
+sudo apt-get install python3-dev -y
+sudo apt-get install tmux -y
 
 #now the rest
 echo now the rest of the setup is a self guided process

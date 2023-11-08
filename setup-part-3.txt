@@ -14,9 +14,13 @@
 
 - go to gnome terminal and set the font to hack nerd font and set the font size to 10 (theme: dark)
 
-- move your .zshrc file from backup to home directory
+- move your .zshrc .tmux.conf file and nvim config folder from backup to home ~/ directory
 
 - now - source ~/.zshrc
+
+- now - tmux source ~/.tmux.conf
+
+- now - p10k configure
 
 - move your base.yml file from backup to ~/.config/espanso/match
 
@@ -54,6 +58,3 @@ minimize enablex and maximize none
 - now enable tiling from pop shell! Tune the keybindings to make it exactly like a window manager e.g i3wm/sway - check keybinds from your last setup
 
 - Now go through all the apps and set them up according to your prefference.
-
-- Now install neovim, tmux, tmuxifer......etc if you want to!
-
