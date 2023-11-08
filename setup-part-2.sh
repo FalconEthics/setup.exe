@@ -20,7 +20,7 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/lates
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 lazygit --version
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor >microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
 sudo rm microsoft.gpg
@@ -32,9 +32,11 @@ sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
 sudo apt-get install python3-venv -y
 sudo apt-get install python3-dev -y
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 sudo apt-get install tmux -y
+git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 #now the rest
 echo now the rest of the setup is a self guided process
 cat ./setup-part-3.txt
-
