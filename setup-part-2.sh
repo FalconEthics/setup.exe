@@ -36,6 +36,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 sudo apt-get install tmux -y
 git clone https://github.com/LazyVim/starter ~/.config/nvim
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+sudo ln -sf ~/.local/kitty.app/bin/kitty ~/.local/kitty.app/bin/kitten /usr/local/bin/
 
 #now the rest
 echo now the rest of the setup is a self guided process

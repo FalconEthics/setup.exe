@@ -4,6 +4,12 @@
 
 - setup react native if needed: (https://reactnative.dev/docs/environment-setup)
 
+- download Jetbrains toolbox: https://www.jetbrains.com/toolbox-app/
+
+- run theis in cmd: sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
+
+- sign-in and install all the ide you need from toolbox
+
 - download hack-nerd font and setup it in terminal: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 
 - go to gnome terminal and set the font to hack nerd font and set the font size to 10 (theme: dark)
@@ -15,6 +21,8 @@
 - now - tmux source ~/.tmux.conf
 
 - now - p10k configure
+
+- now run - kitty +kitten themes > and select Atom theme
 
 - move your base.yml file from backup to ~/.config/espanso/match
 
