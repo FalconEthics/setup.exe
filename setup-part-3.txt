@@ -14,7 +14,9 @@
 
 - go to gnome terminal and set the font to hack nerd font and set the font size to 10 (theme: dark)
 
-- move your .zshrc .tmux.conf file and nvim config folder from backup to home ~/ directory
+- move your .zshrc and .tmux.conf file config folder from backup to home ~/ directory
+
+- now move your custom nvchad config folder to ~/.config/nvim/lua/
 
 - now - source ~/.zshrc
 

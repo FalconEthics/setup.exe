@@ -26,7 +26,6 @@ set expandtab
 " import plugins
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
-Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'dbakker/vim-paragraph-motion'

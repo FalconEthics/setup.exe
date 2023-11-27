@@ -8,6 +8,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.tmuxifier/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -88,9 +89,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
  if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vi'
+   export EDITOR='nvim'
  else
-   export EDITOR='gedit'
+   export EDITOR='nvim'
  fi
 
 # Compilation flags
@@ -99,6 +100,9 @@ alias ls='colorls'
 alias lsa='colorls -lA --sd'
 alias pbcopy="xclip -sel clip"
 alias lg="lazygit"
+alias tmx="tmuxifier"
+alias vi="nvim"
+alias vim="nvim"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
