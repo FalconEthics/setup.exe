@@ -5,7 +5,6 @@ local plugins = {
   -- community plugins
   "NvChad/nvcommunity",
   { import = "nvcommunity.motion.hop" },
-  { import = "nvcommunity.motion.neoscroll" },
   { import = "nvcommunity.lsp.lspui" },
   { import = "nvcommunity.lsp.barbecue" },
   { import = "nvcommunity.lsp.codeactionmenu" },

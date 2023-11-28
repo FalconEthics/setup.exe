@@ -6,6 +6,10 @@ M.general = {
     -- [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<leader>q"] = { ":q<CR>", "quit", opts = { nowait = true } },
     ["<leader>sr"] = { "<cmd>Spectre<CR>", "Toggle Spectre" },
+    ["<C-d>"] = { "<C-d>zz", "Scroll Down" },
+    ["<C-u>"] = { "<C-u>zz", "Scroll Up" },
+    ["n"] = { "nzzzv", "Next search result" },
+    ["N"] = { "Nzzzv", "Previous search result" },
   },
   v = {
     [">"] = { ">gv", "indent" },
