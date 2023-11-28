@@ -2,8 +2,64 @@ local overrides = require "custom.configs.overrides"
 
 ---@type NvPluginSpec[]
 local plugins = {
+  -- community plugins
+  "NvChad/nvcommunity",
+  { import = "nvcommunity.motion.hop" },
+  { import = "nvcommunity.motion.neoscroll" },
+  { import = "nvcommunity.lsp.lspui" },
+  { import = "nvcommunity.lsp.barbecue" },
+  { import = "nvcommunity.lsp.codeactionmenu" },
 
-  -- Override plugin definition options
+  -- debuggers
+  {
+    "mfussenegger/nvim-dap",
+    init = function()
+      require("core.utils").load_mappings "dap"
+    end,
+  },
+  {
+    "dreamsofcode-io/nvim-dap-go",
+    ft = "go",
+    dependencies = "mfussenegger/nvim-dap",
+    config = function(_, opts)
+      require("dap-go").setup(opts)
+      require("core.utils").load_mappings "dap_go"
+    end,
+  },
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      require "plugins.configs.lspconfig"
+      require "custom.configs.lspconfig"
+    end,
+  },
+  {
+    "olexsmir/gopher.nvim",
+    ft = "go",
+    config = function(_, opts)
+      require("gopher").setup(opts)
+      require("core.utils").load_mappings "gopher"
+    end,
+    build = function()
+      vim.cmd [[silent! GoInstallDeps]]
+    end,
+  },
+
+  -- nvim core plugins
+  {
+    "mg979/vim-visual-multi",
+    event = "InsertEnter",
+  },
+  {
+    "nvim-pack/nvim-spectre",
+    cmd = "Spectre",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      require("spectre").setup()
+    end,
+  },
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
@@ -30,17 +86,6 @@ local plugins = {
             dismiss = "<C-Left>",
           },
         },
-        -- filetypes = {
-        --   yaml = false,
-        --   markdown = false,
-        --   help = false,
-        --   gitcommit = false,
-        --   gitrebase = false,
-        --   hgcommit = false,
-        --   svn = false,
-        --   cvs = false,
-        --   ["."] = false,
-        -- },
       }
     end,
   },
@@ -54,6 +99,8 @@ local plugins = {
       }
     end,
   },
+
+  -- Override plugin definition options
   {
     "neovim/nvim-lspconfig",
     dependencies = {
