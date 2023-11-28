@@ -25,9 +25,10 @@ set expandtab
 
 " import plugins
 Plug 'machakann/vim-highlightedyank'
-Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'2
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'easymotion/vim-easymotion'
 Plug 'dbakker/vim-paragraph-motion'
 
 " my keybindings
