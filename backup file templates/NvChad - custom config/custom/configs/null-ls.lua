@@ -20,7 +20,8 @@ local sources = {
 
   -- extras
   b.formatting.beautysh,
-  b.formatting.markdownlint, 
+  b.formatting.markdownlint,
+  b.diagnostics.eslint,
 }
 
 null_ls.setup {
