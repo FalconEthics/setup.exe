@@ -53,13 +53,6 @@ local plugins = {
     end,
   },
   {
-    "neovim/nvim-lspconfig",
-    config = function()
-      require "plugins.configs.lspconfig"
-      require "custom.configs.lspconfig"
-    end,
-  },
-  {
     "olexsmir/gopher.nvim",
     ft = "go",
     config = function(_, opts)
@@ -72,6 +65,10 @@ local plugins = {
   },
 
   -- nvim core plugins
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
   {
     "mg979/vim-visual-multi",
     event = "InsertEnter",

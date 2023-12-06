@@ -1,6 +1,12 @@
 ---@type MappingsTable
 local M = {}
 
+M.disabled = {
+  n = {
+    ["<C-n>"] = "",
+  },
+}
+
 M.general = {
   n = {
     -- [";"] = { ":", "enter command mode", opts = { nowait = true } },
@@ -10,9 +16,20 @@ M.general = {
     ["<C-u>"] = { "<C-u>zz", "Scroll Up" },
     ["n"] = { "nzzzv", "Next search result" },
     ["N"] = { "Nzzzv", "Previous search result" },
+    ["<C-h>"] = { "<cmd> TmuxNavigateLeft<CR>", "window left" },
+    ["<C-l>"] = { "<cmd> TmuxNavigateRight<CR>", "window right" },
+    ["<C-j>"] = { "<cmd> TmuxNavigateDown<CR>", "window down" },
+    ["<C-k>"] = { "<cmd> TmuxNavigateUp<CR>", "window up" },
   },
   v = {
     [">"] = { ">gv", "indent" },
+  },
+}
+
+M.nvimtree = {
+  plugin = true,
+  n = {
+    ["<leader>o"] = { "<cmd>NvimTreeToggle<CR>", "Toggle NvimTree" },
   },
 }
 
@@ -24,9 +41,9 @@ M.dap = {
       "<cmd> DapToggleBreakpoint <CR>",
       "Add breakpoint at line",
     },
-     ["<leader>dr"] = {
+    ["<leader>dr"] = {
       "<cmd> DapContinue <CR>",
-      "Run or continue the debugger"
+      "Run or continue the debugger",
     },
     ["<leader>dus"] = {
       function()

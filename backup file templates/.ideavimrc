@@ -32,9 +32,28 @@ Plug 'easymotion/vim-easymotion'
 Plug 'dbakker/vim-paragraph-motion'
 
 " my keybindings
-:map <leader>n :NERDTreeToggle<CR>
-:map <leader>f <Action>(Find)
-:map <leader>r <Action>(Replace)
-:map <leader>l <Action>(ReformatCode)
-map <leader>w :w<CR>
-map <leader>q :wq<CR>
+:map <leader>sr <Action>(Replace)
+:map <leader>q :wq<CR>
+
+" toggle nerdtree"
+:map <leader>o :NERDTreeToggle<CR>
+" focus nerdtree"
+:map <leader>e :NERDTreeFocus<CR>
+" map to have zz when i do ctrl u or d"
+:map <C-u> <C-u>zz
+:map <C-d> <C-d>zz
+"format code with leader fm - webstorm action"
+:map <leader>fm <Action>(ReformatCode)
+"open terminal with alt i - webstorm action"
+:map <A-i> <Action>(ActivateTerminalToolWindow)
+"open find files with leader ff - webstorm action"
+:map <leader>ff <Action>(GotoFile)
+"open action with leader fa - webstorm action"
+:map <leader>fa <Action>(SearchEverywhere)
+"toggle breakpoint with leader db - webstorm action"
+:map <leader>db <Action>(ToggleLineBreakpoint)
+"start debug with leader dr - webstorm action"
+:map <leader>dr <Action>(Debug)
+"map / and ? to find and find with case sensitive - webstorm action"
+:map / <Action>(Find)
+:map ? <Action>(Find)

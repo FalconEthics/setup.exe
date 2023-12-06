@@ -12,88 +12,68 @@ matches:
   - trigger: ":espanso"
     replace: "Hi there!"
 
-  # Replace with your email address
   - trigger: ":mail"
-    replace: "youremail@example.com"
+    replace: "mail2soumikdas@gmail.com"
 
-  # Replace with your password
-  - trigger: ":ps"
-    replace: "yourpassword"
-
-  # Replace with your password
-  - trigger: ":fe"
-    replace: "yourpassword"
-
-  # Replace with your roll number
   - trigger: ":roll"
-    replace: "123456789"
+    replace: "220383444"
 
-  # Replace with your student ID
   - trigger: ":id"
-    replace: "yourstudentid@example.com"
+    replace: "sd366@student.london.ac.uk"
 
-  # Replace with your work email
   - trigger: ":work"
-    replace: "youremail@yourcompany.com"
+    replace: ":soumik.das@tripsygames.com"
 
-  # Replace with your LinkedIn profile URL
   - trigger: ":link"
-    replace: "https://www.linkedin.com/in/yourusername/"
+    replace: "https://www.linkedin.com/in/soumik-das-profile/"
 
-  # Replace with your GitHub profile URL
   - trigger: ":git"
-    replace: "https://github.com/yourusername"
+    replace: "https://github.com/FalconEthics"
 
-  # Replace with your Instagram profile URL
   - trigger: ":insta"
-    replace: "https://www.instagram.com/yourusername/"
+    replace: "https://www.instagram.com/itz.raaj.das/"
 
-  # Replace with your bio
   - trigger: ":bio"
-    replace: "Your bio goes here."
+    replace: "A CSE Student from University of London | Founder of STEMHUB | React-Native Developer at Wisedeck Technologies | and a guy u would love to chill with🥂"
 
-  # Replace with your Twitter profile URL
   - trigger: ":twi"
-    replace: "https://twitter.com/yourusername"
+    replace: "https://twitter.com/Mr_Soumik_Das"
 
-  # Replace with your personal website URL
   - trigger: ":web"
-    replace: "https://yourwebsite.com/"
+    replace: "https://mrsoumikdas.com/"
 
-  # Replace with your birthdate
+  - trigger: ":md"
+    replace: "https://medium.com/@stemhub"
+
   - trigger: ":bd"
-    replace: "01/01/2000"
+    replace: "22/05/2003"
 
-  # Replace with your address
   - trigger: ":add"
-    replace: "123 Main St."
-
-  # Replace with your phone number
+    replace: "Santinagar, W/No. 3"
+    
   - trigger: ":no"
-    replace: "+1 (555) 555-5555"
-
-  # Replace with your name
+    replace: "+91 9854027242"
+    
   - trigger: ":nm"
-    replace: "Your Name"
+    replace: "Soumik Das"
 
-  # Replace with your cover letter
   - trigger: ":cover"
-    replace: "Dear Hiring Manager,
-
-I am writing to express my interest in the available position at your company. I am confident that my skills and experience make me a strong candidate for the role.
-
-I have experience in [insert relevant experience here], and I am excited to bring my expertise to your team. I am a hard worker, a quick learner, and I am committed to delivering exceptional results.
-
-I would be honored to have the opportunity to discuss how my skills and background align with the role, and I look forward to hearing from you.
-
-Best regards,
-
-Your Name"
-
-  # Replace with your college degree
+    replace: "Dear HR Team, 
+\n
+\nAs a passionate and skilled professional, I am excited to apply for the available role within your organization. With expertise in frontend web development, I bring a unique perspective and a commitment to delivering exceptional results.
+\n
+\nMy skills and experience are complemented by my strong work ethic, attention to detail, and ability to work collaboratively with others. Although I may have less experience compared to other applicants, I am confident in my ability to make a meaningful contribution to your team. I am passionate about what I do.
+\n
+\nI would be honored to have the opportunity to discuss how my skills and background align with the role, and I look forward to hearing from you.
+\n
+\nBest regards,
+\n
+\nSoumik Das
+\nsoumik-das.com"
+    
   - trigger: ":clg"
-    replace: "Your College Degree"
-
+    replace: "BSc Computer Science from University of London"
+   
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
   # But matches can also be dynamic:
