@@ -47,9 +47,9 @@ Plug 'dbakker/vim-paragraph-motion'
 "open terminal with alt i - webstorm action"
 :map <A-i> <Action>(ActivateTerminalToolWindow)
 "open find files with leader ff - webstorm action"
-:map <leader>ff <Action>(GotoFile)
-"open action with leader fa - webstorm action"
-:map <leader>fa <Action>(SearchEverywhere)
+:map <leader>ff <Action>(SearchEverywhere)
+"open find in files with leader fa - webstorm action"
+:map <leader>fa <Action>(FindInPath)
 "toggle breakpoint with leader db - webstorm action"
 :map <leader>db <Action>(ToggleLineBreakpoint)
 "start debug with leader dr - webstorm action"
@@ -57,3 +57,5 @@ Plug 'dbakker/vim-paragraph-motion'
 "map / and ? to find and find with case sensitive - webstorm action"
 :map / <Action>(Find)
 :map ? <Action>(Find)
+"comment line on leader / - webstorm action"
+:map <leader>/ <Action>(CommentByLineComment)

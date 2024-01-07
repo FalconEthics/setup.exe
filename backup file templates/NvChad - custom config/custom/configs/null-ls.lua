@@ -22,6 +22,7 @@ local sources = {
   b.formatting.beautysh,
   b.formatting.markdownlint,
   b.diagnostics.eslint,
+  b.formatting.yamlfmt,
 }
 
 null_ls.setup {

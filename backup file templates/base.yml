@@ -42,6 +42,9 @@ matches:
   - trigger: ":web"
     replace: "https://mrsoumikdas.com/"
 
+  - trigger: ":yt"
+    replace: "https://www.youtube.com/@stemhub"
+
   - trigger: ":md"
     replace: "https://medium.com/@stemhub"
 

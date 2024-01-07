@@ -46,6 +46,7 @@ M.mason = {
     "js-debug-adapter",
     "eslint-lsp",
     "deno",
+    "tailwindcss-language-server",
 
     -- c/cpp stuff
     "clangd",
@@ -64,6 +65,7 @@ M.mason = {
     "prettierd",
     "markdownlint",
     "dockerfile-language-server",
+    "yamlfmt",
   },
 }
 
