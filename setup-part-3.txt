@@ -1,5 +1,3 @@
-- install go - https://go.dev/doc/install
-
 - setup auto mount of disks from gnome disks utility
 
 - setup react native if needed: (https://reactnative.dev/docs/environment-setup)
