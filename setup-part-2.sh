@@ -2,6 +2,10 @@
 
 #lets continue from where we left off
 sudo apt install neofetch -y
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 17.0.10-zulu -y
+sdk install java 21.0.2-oracle -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
